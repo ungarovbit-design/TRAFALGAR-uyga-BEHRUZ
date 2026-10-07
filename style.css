@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Mulish", sans-serif;
+}
+
+.container {
+    max-width: 87%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 41px;
+}
+
+nav ul a {
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    opacity: 60%;
+    color: black;
+    transition: 0.2s;
+}
+
+nav ul a:hover {
+    opacity: 100%;
+    color: black;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 91px;
+}
+
+.header_content div h1 {
+    font-size: 45px;
+    width: 421px;
+}
+
+.header_content div p {
+    padding-top: 26.32px;
+    font-size: 19px;
+    color: #7D7987;
+    width: 405px;
+}
+
+.header_text h1 {
+    font-size: 45px;
+}
+
+button {
+    background-color: #458FF6;
+    list-style: none;
+    border-radius: 55px;
+    color: white;
+    width: 197px;
+    height: 49px;
+    font-size: 17px;
+    border: none;
+    transition: 0.5s;
+    margin-top: 35.9px;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid #458FF6;
+    color: #458FF6;
+    box-shadow: 5px 5px 45px;
+    transition: 0.5s;
+}
+
+
+.text_div {
+    width: 952px;
+    text-align: center;
+    margin: auto;
+    margin-top: 93px;
+
+}
+
+.text_div p {
+    margin-top: 61px;
+    font-size: 18px;
+    color: #7D7987;
+}
+
+.text_div h1 {
+    font-size: 35px;
+}
+
+.div_boxes div {
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_content p {
+    width: 440;
+    height: 84.21314239501953;
+    top: 387.66px;
+    left: 130px;
+    angle: 0 deg;
+    opacity: 1;
+    margin-top: 26px;
+    margin-bottom: 35px;
+}
+
+.about_h2 {
+    width: 212;
+    height: 56.74357604980469;
+    top: 736px;
+    left: 628px;
+    angle: 0 deg;
+    opacity: 1;
+    text-align: center;
+    margin-top: 91px;
+    margin-bottom: 61px;
+}
+
+.about_p {
+    width: 952;
+    height: 60.796688079833984;
+    top: 854.55px;
+    left: 256px;
+    angle: 0 deg;
+    opacity: 1;
+    text-align: center;
+    margin: auto;
+    color: #7D7987;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_content h1 {
+    width: 421.2134704589844;
+    height: 98.24866485595703;
+    top: 263.09px;
+    left: 130px;
+    angle: 0 deg;
+    opacity: 1;
+
+}
+
+.card_divs {
+    border: 1px solid #E7E7E7;
+    width: 380px;
+    height: 380px;
+    background-color: #E7E7E7;
+    opacity: 1;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 75px;
+    padding-left: 71px;
+    transition: 0.50s;
+}
+
+.card_divs:hover {
+    background-color: #458FF6;
+    border: 1px solid #458FF6;
+    color: white;
+    box-shadow: 5px 5px 50px black;
+    transition: 0.5s;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1180px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.card_h2 {
+    padding-top: 35px;
+    padding-bottom: 17px;
+}
+
+.card_p {
+    color: #7D7987;
+
+}
+
+.div3 p {
+    color: #7D7987;
+    width: 434px;
+    margin-bottom: 41px;
+    margin-top: 62px;
+
+    font-weight: 300;
+    font-size: 18px;
+
+    line-height: 30px;
+
+}
+
+.sec_5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 75px;
+}
+
+.sec6 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.box_doctor {
+    background-color: #E5E9F666;
+    width: 380px;
+    height: 516px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transition: 0.50s;
+}
+
+.doc_h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    width: 320px;
+}
+
+.doc_p {
+    padding-left: 15px;
+    width: 266;
+    height: 84;
+    color: #7D7987;
+   
+
+}
+.box_doctor:hover{
+    background-color: #458FF6;
+    color: white;
+    box-shadow: 4px 4px 45px black;
+    transition: 0.5s;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #458FF6;
+}
